@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./index.css">
+</head>
+<body>
+    <img src="./termometro.jpg" id="termometro1">
+    <div id="box1">
+            <h1>TERMÔMETRO</h1>
+            <label for="temperature">Descubra se a sua temperatura está normal</label>
+            <input type="text" name="temperature" id="temperature" placeholder="   ...°C" required>
+            <input type="button" name="botao" id="botao" onclick="clicou()" value="checar">
+            <div id="resposta"></div>
+    </div>
+    <script src="./termometro.js"></script>
+</body>
+</html>
